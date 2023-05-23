@@ -23,14 +23,13 @@ class ProductManager {
 
         this.products.push(newProduct)
         
-        await fs.writeFile(this.patch, JSON.stringify(this.products))
+        await fs.writeFile(this.patch, JSON.stringify(this.products, null, '\t'))
     }
 
-    getProducts = async() => {
-        let respuesta = (JSON.parse(await fs.readFile(this.patch, this.format)))
-        console.log(respuesta);
+    getProducts = async() =>JSON.parse(await fs.readFile(this.patch, this.format))
+        
 
-    }
+    
 }
 
 const productos = new ProductManager
