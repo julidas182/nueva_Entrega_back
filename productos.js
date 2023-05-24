@@ -16,5 +16,14 @@
 		"code": "ku501",
 		"stock": 15,
 		"id": 2
+	},
+	{
+		"title": "motorolla g20",
+		"description": "celular gama baja",
+		"price": 56000,
+		"image": "imagenG20",
+		"code": "ku201",
+		"stock": 23,
+		"id": 3
 	}
 ]
