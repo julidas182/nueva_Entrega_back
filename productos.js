@@ -2,7 +2,7 @@
 	{
 		"title": "motorolla g200",
 		"description": "celular gama alta",
-		"price": 150000,
+		"price": 160000,
 		"image": "imagenG200",
 		"code": "ku2001",
 		"stock": 10,
