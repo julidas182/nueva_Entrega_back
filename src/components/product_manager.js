@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 
-class ProductManager {
+export default class ProductManager {
     constructor(){
         this.path = "./productos.js"
         this.products = []
@@ -80,21 +80,30 @@ class ProductManager {
       
 }
 
-const productos = new ProductManager
-
+//const productos = new ProductManager
+/*
 productos.addProduct('motorolla g200', 'celular gama alta', 150000, 'imagenG200', 'ku2001', 10 )
 productos.addProduct('motorolla g50', 'celular gama media', 98000, 'imagenG50', 'ku501', 15 )
 productos.addProduct('motorolla g20', 'celular gama baja', 56000, 'imagenG20', 'ku201', 23 )
+productos.addProduct('motorolla g70', 'celular gama media', 140000, 'imagenG70', 'ku701', 10 )
+productos.addProduct('motorolla g55', 'celular gama media', 90000, 'imagenG55', 'ku551', 20 )
+productos.addProduct('motorolla g8', 'celular gama baja', 50000, 'imagenG8', 'ku81', 20 )
+productos.addProduct('motorolla g250', 'celular gama alta', 180000, 'imagenG250', 'ku2501', 10 )
+productos.addProduct('motorolla g60', 'celular gama media', 95000, 'imagenG60', 'ku601', 15 )
+productos.addProduct('motorolla g9', 'celular gama baja', 55000, 'imagenG9', 'ku91', 23 )
+productos.addProduct('samsung A20', 'celular gama media', 100000, 'imagenA20', 'ku220', 10 )
+productos.addProduct('samsung A50', 'celular gama media', 120000, 'imagenA50', 'ku150', 15 )
+productos.addProduct('samsung A04', 'celular gama baja', 56000, 'imagenA04', 'ku104', 23 )*/
 
 //productos.getProducts()
 //productos.getProductsById(5)
 //productos.deleteProductsById(2)
-productos.updateProducts({
-    "title": "motorolla g200",
-		"description": "celular gama alta",
-		"price": 160000,
-		"image": "imagenG200",
-		"code": "ku2001",
-		"stock": 10,
-		"id": 1
-})
+// productos.updateProducts({
+//     "title": "motorolla g200",
+// 		"description": "celular gama alta",
+// 		"price": 160000,
+// 		"image": "imagenG200",
+// 		"code": "ku2001",
+// 		"stock": 10,
+// 		"id": 1
+// })
